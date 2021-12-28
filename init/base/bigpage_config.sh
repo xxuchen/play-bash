@@ -1,0 +1,1 @@
+#!/bin/bashecho "echo never > /sys/kernel/mm/transparent_hugepage/defrag" >> /etc/rc.d/rc.localecho "echo never > /sys/kernel/mm/transparent_hugepage/enabled" >> /etc/rc.d/rc.local#授予执行权限：chmod +x /etc/rc.d/rc.local
